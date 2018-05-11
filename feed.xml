@@ -14,7 +14,7 @@
     <link rel="alternate" href="https://vgpena.github.io/good-is-better-than-perfect/"/>
     <id>https://vgpena.github.io/good-is-better-than-perfect/</id>
     <published>2017-12-27T11:42:00-08:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:24:14-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -92,7 +92,7 @@
     <link rel="alternate" href="https://vgpena.github.io/debugging-bliss/"/>
     <id>https://vgpena.github.io/debugging-bliss/</id>
     <published>2017-09-27T16:01:00-07:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:24:14-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -297,7 +297,7 @@
     <link rel="alternate" href="https://vgpena.github.io/classifying-tweets-with-keras-and-tensorflow/"/>
     <id>https://vgpena.github.io/classifying-tweets-with-keras-and-tensorflow/</id>
     <published>2017-09-02T19:05:00-07:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:24:14-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -723,7 +723,7 @@ positive sentiment; 62.751633% confidence
     <link rel="alternate" href="https://vgpena.github.io/the-art-of-gitting-gud/"/>
     <id>https://vgpena.github.io/the-art-of-gitting-gud/</id>
     <published>2017-08-13T15:23:00-07:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:24:14-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -780,7 +780,7 @@ positive sentiment; 62.751633% confidence
     <link rel="alternate" href="https://vgpena.github.io/we-rise-2017/"/>
     <id>https://vgpena.github.io/we-rise-2017/</id>
     <published>2017-07-01T14:06:00-07:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:24:14-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -833,7 +833,7 @@ positive sentiment; 62.751633% confidence
     <link rel="alternate" href="https://vgpena.github.io/winning-with-css-variables/"/>
     <id>https://vgpena.github.io/winning-with-css-variables/</id>
     <published>2017-04-30T14:30:00-07:00</published>
-    <updated>2017-12-27T12:02:14-08:00</updated>
+    <updated>2018-05-10T18:45:29-07:00</updated>
     <author>
       <name>Violet Peña</name>
     </author>
@@ -987,7 +987,7 @@ positive sentiment; 62.751633% confidence
 &lt;span class="p"&gt;);&lt;/span&gt;
 
 &lt;span class="nt"&gt;body&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="na"&gt;--primary&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;map-get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$vars&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;primary&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="na"&gt;--primary&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="nf"&gt;map-get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$vars&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;primary&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
 &lt;span class="k"&gt;@mixin&lt;/span&gt; &lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$property&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;$varName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -1014,14 +1014,28 @@ positive sentiment; 62.751633% confidence
 &lt;p&gt;This way, if you change &lt;code&gt;--primary&lt;/code&gt; or its fallback, you only need to edit the &lt;code&gt;$vars&lt;/code&gt; map and your styles everywhere will update.&lt;/p&gt;
 
 &lt;p&gt;Please note that you still need to declare your CSS variables somewhere. If you want all of your variables to be available everywhere, you can use more cool Sass to automatically add all the ones in your map to &lt;code&gt;body&lt;/code&gt; or &lt;code&gt;html&lt;/code&gt; ✨&lt;/p&gt;
-
-&lt;hr&gt;
-
+&lt;h2 class='section-title' id=coda&gt;&lt;a href='#coda' class='section-inner'&gt;Coda&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;If you want to see CSS variables in action, head on over to &lt;a href="http://violet.is/"&gt;my personal site&lt;/a&gt;. I had an amazing time on this small project and I&amp;#39;m looking forward to using them on something much larger 🥂&lt;/p&gt;
 
 &lt;p&gt;If you still haven&amp;#39;t had enough of CSS variables, check out &lt;a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"&gt;this Google Developers blog post&lt;/a&gt;. They do a great job of sticking to the &amp;quot;CSS variables are custom properties&amp;quot; paradigm.&lt;/p&gt;
 
 &lt;p&gt;Now go forth and style!&lt;/p&gt;
+&lt;h3 tabIndex=0&gt;Update: Syntax Change&lt;/h3&gt;
+&lt;p&gt;The original version of this post was tested using Sass 3.4; starting with Sass 3.6, you need to add string interpolation if you want to add Sassy behavior to any CSS variables.&lt;/p&gt;
+
+&lt;p&gt;So this (my original) code will not work:&lt;/p&gt;
+&lt;pre class="code scss"&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;--primary&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;map-get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$vars&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;primary&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;but this (freshly updated) code does:&lt;/p&gt;
+&lt;pre class="code scss"&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;--primary&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="nf"&gt;map-get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$vars&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;primary&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CSS variables themselves are unchanged and this only applies to Sass users.&lt;/p&gt;
+
+&lt;p&gt;Thanks a million to Tobias Schächtelin (&lt;a href="https://twitter.com/tschach"&gt;@tschach&lt;/a&gt;) for finding this out in your own experimentation and contacting me 🎉&lt;/p&gt;
 </content>
   </entry>
 </feed>
